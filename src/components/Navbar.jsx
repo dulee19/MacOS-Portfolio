@@ -1,9 +1,11 @@
-import { navIcons, navLinks } from "../constants"
 import { useEffect, useState } from "react"
+import { navIcons, navLinks } from "../constants"
+import useWindowStore from "../store/window"
 
 const Navbar = () => {
+    const { openWindow } = useWindowStore();
     const [now, setNow] = useState(new Date());
-
+ 
     useEffect(() => {
         const interval = setInterval(() => {
             setNow(new Date());
@@ -32,7 +34,7 @@ const Navbar = () => {
         
             <ul>
                 {navLinks.map((link) => (
-                    <li key={link.id}>
+                    <li key={link.id} onClick={() => openWindow(link.type)}>
                         {link.name}
                     </li>
                 ))}
