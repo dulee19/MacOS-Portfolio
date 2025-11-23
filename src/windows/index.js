@@ -5,3 +5,4 @@ export { default as Finder } from "./Finder";
 export { default as Text } from "./Text";
 export { default as ImageWindowContent } from "./ImageWindowContent";
 export { default as Contact } from "./Contact";
+export { default as Photos } from "./Photos";

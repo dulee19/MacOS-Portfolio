@@ -38,39 +38,33 @@ const navIcons = [
 const dockApps = [
   {
     id: "finder",
-    name: "Portfolio", // was "Finder"
+    name: "Portfolio",
     icon: "finder.png",
     canOpen: true,
   },
   {
     id: "safari",
-    name: "Articles", // was "Safari"
+    name: "Articles",
     icon: "safari.png",
     canOpen: true,
   },
   {
     id: "photos",
-    name: "Gallery", // was "Photos"
+    name: "Gallery",
     icon: "photos.png",
     canOpen: true,
   },
   {
     id: "contact",
-    name: "Contact", // or "Get in touch"
+    name: "Contact",
     icon: "contact.png",
     canOpen: true,
   },
   {
     id: "terminal",
-    name: "Skills", // was "Terminal"
+    name: "Skills",
     icon: "terminal.png",
     canOpen: true,
-  },
-  {
-    id: "trash",
-    name: "Archive", // was "Trash"
-    icon: "trash.png",
-    canOpen: false,
   },
 ];
 
@@ -81,21 +75,24 @@ const blogPosts = [
     title:
       "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
     image: "/images/blog1.png",
-    link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
+    link:
+      "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
   },
   {
     id: 2,
     date: "Aug 28, 2025",
     title: "The Ultimate Guide to Mastering Three.js for 3D Development",
     image: "/images/blog2.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
+    link:
+      "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
   },
   {
     id: 3,
     date: "Aug 15, 2025",
     title: "The Ultimate Guide to Mastering GSAP Animations",
     image: "/images/blog3.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
+    link:
+      "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
   },
 ];
 
@@ -174,19 +171,19 @@ const photosLinks = [
 const gallery = [
   {
     id: 1,
-    img: "/images/gal1.png",
+    img: "/images/dusan.avif",
   },
   {
     id: 2,
-    img: "/images/gal2.png",
+    img: "/images/wallpaper.avif",
   },
   {
     id: 3,
-    img: "/images/gal3.png",
+    img: "/images/photos.png",
   },
   {
     id: 4,
-    img: "/images/gal4.png",
+    img: "/images/blog1.png",
   },
 ];
 
@@ -211,7 +208,7 @@ const WORK_LOCATION = {
     // ▶ Project 1
     {
       id: 5,
-      name: "Snapgram Application",
+      name: "Apple GSAP",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-5", // icon position inside Finder
@@ -219,32 +216,33 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Snapgram Project.txt",
+          name: "Apple GSAP Project.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "Enjoy effortless photo and real-time updates, and a sleek, user-friendly interface designed for social interaction and engagement."
+            "Beautiful Apple based GSAP landing page. Built with smooth animations.",
           ],
         },
         {
           id: 2,
-          name: "snapgram.com",
+          name: "apple-gsap.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://snapgram-lac-nine.vercel.app/",
+          href:
+            "https://apple-gsap-page-55n7r40ru-dulee19s-projects.vercel.app/",
           position: "top-10 right-20",
         },
         {
           id: 4,
-          name: "snapgram.png",
+          name: "apple-gsap.avif",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
-          imageUrl: "/images/project-1.webp",
+          imageUrl: "/images/project-1.avif",
         },
       ],
     },
@@ -252,7 +250,7 @@ const WORK_LOCATION = {
     // ▶ Project 2
     {
       id: 6,
-      name: "Expense Tracker",
+      name: "Realtor",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-52 right-80",
@@ -260,32 +258,32 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Expense Tracker Project.txt",
+          name: "Realtor Project.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 right-10",
           description: [
-           "Built an expense tracker using Next.js, React, and TypeScript, featuring real-time data updates, intuitive UI, and seamless integration with external APIs for managing personal and business expenses efficiently"
+            "Built with Next.js - Realtor is a application for exploring, buying or renting a beautiful apartments, villas and more.",
           ],
         },
         {
           id: 2,
-          name: "expense-tracker.com",
+          name: "realtor.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://expense-tracker-next-five.vercel.app/",
+          href: "https://realstateapp-five.vercel.app/",
           position: "top-20 left-20",
         },
         {
           id: 4,
-          name: "expanse-tracker.png",
+          name: "realtor.avif",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 left-80",
-          imageUrl: "/images/project-2.webp",
+          imageUrl: "/images/project-2.avif",
         },
       ],
     },
@@ -307,12 +305,12 @@ const WORK_LOCATION = {
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "Step into the future with Brainware AI Design, an innovative AI landing page that exudes futuristic vibes. Crafted using Next.js, React, TypeScript, GSAP, and Tailwind CSS, "
+            "Step into the future with Brainware AI Design, an innovative AI landing page that exudes futuristic vibes. Crafted using Next.js, React, TypeScript, GSAP, and Tailwind CSS, ",
           ],
         },
         {
           id: 2,
-          name: "food-delivery-app.com",
+          name: "brainware-ai-landing.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
@@ -321,7 +319,7 @@ const WORK_LOCATION = {
         },
         {
           id: 4,
-          name: "brainwave-ai.png",
+          name: "brainwave-ai.webp",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
@@ -348,7 +346,7 @@ const WORK_LOCATION = {
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "ProShop MERN stack project. Buy, create, update and delete project. Admin dashboard, login system..."
+            "ProShop MERN stack project. Buy, create, update and delete project. Admin dashboard, login system, integrated payment...",
           ],
         },
         {
@@ -362,12 +360,12 @@ const WORK_LOCATION = {
         },
         {
           id: 4,
-          name: "proshop.png",
+          name: "proshop.avif",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
-          imageUrl: "/images/project-3.png",
+          imageUrl: "/images/project-3.avif",
         },
       ],
     },
@@ -388,7 +386,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-10 left-5",
-      imageUrl: "/images/dusan.jpg",
+      imageUrl: "/images/dusan.avif",
     },
     {
       id: 2,
@@ -398,7 +396,7 @@ const ABOUT_LOCATION = {
       fileType: "txt",
       position: "top-60 left-5",
       subtitle: "Meet the Developer Behind the Code",
-      image: "/images/dusan.jpg",
+      image: "/images/dusan.avif",
       description: [
         "Hey! I’m Dušan 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
         "Web Developer with 6 years of experience in web development, specializing in e-commerce shops and B2B portals. Skilled in building clean, responsive designs and seamless user experiences.",
